@@ -1,0 +1,529 @@
+body {
+    background-image: url('https://images.pexels.com/photos/1114690/pexels-photo-1114690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Ruta relativa a la imagen en tu repositorio de GitHub */
+    background-size: cover; /* Ajusta la imagen al tamaño del viewport */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en la ventana */
+    margin-bottom: 30px; 
+    font-family: "Times New Roman", sans-serif; /* Primero se intentará con Arial y luego con la fuente sans-serif genérica */
+
+
+}
+
+#background-img {
+    position: fixed; /* Fija la imagen en la ventana del navegador */
+    top: 0;
+    left: 0;
+    width: 100%; /* Cubre todo el ancho de la ventana */
+    height: 100%; /* Cubre todo el alto de la ventana */
+    z-index: -1; /* Coloca la imagen detrás de todo el contenido */
+    object-fit: cover; /* Ajusta la imagen al tamaño del contenedor */
+}
+
+.custom-gray-row {
+    background-color: #809da4;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #096160;
+}
+
+.custom-gray-row1 {
+    background-color: #096160;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #1fd2e6;
+    text-decoration-style: dotted;
+}
+
+.custom-gray-row2 {
+    background-color: #ffffff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000000;
+    text-decoration-style: dotted;
+    width: auto;
+}
+
+.custom-gray-row3 {
+    background-color: #000000;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #b5cbc5;
+    width: auto;
+    
+}
+
+.custom-gray-image {
+    max-width: 30px;
+    margin-left: 30px;
+}
+
+.custom-links {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    color: #096160;
+}
+
+.custom-link a {
+    text-decoration:solid;
+    margin-right: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.custom-section {
+    border: 1px solid #754040;
+    padding: 20px;
+    margin: 10px;
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custom-section h2 {
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.main-section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: #5dbbb9;
+}
+
+.custom-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.bigger-custom-section {
+    width: 400px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 25px;
+    margin-right: 20px; 
+    background-size: cover;
+
+}
+
+.bigger-custom-section2 {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 25px;
+    margin-right: 20px; 
+    background-size: cover;
+    position: relative; /* Establece el posicionamiento relativo */
+    overflow: hidden;
+    
+}
+
+
+.smaller-custom-section {
+    width: 400px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 25px;
+    object-fit: contain;
+}
+
+.horizontal-sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.bigger-custom-section strong {
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+.image-container {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.bigger-custom-section h2,
+.smaller-custom-section h2 {
+    margin-left: 20px;
+}
+
+.additional-text {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.tendencias-image {
+    width: 80%;
+}
+
+.bigger-custom-section-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en una línea */
+    justify-content: space-between; /* Distribuye las imágenes horizontalmente */
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
+.btn {
+    background-color: #1e9fd25a; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    padding: 5px 15px; /* Espacio interno del botón */
+    text-align: center; /* Centrar el texto */
+    text-decoration: none; /* Quitar subrayado */
+    display: inline-block; /* Mostrar en línea */
+    font-size: 12px; /* Tamaño de fuente */
+    margin-right: 1px; /* Margen derecho entre botones */
+    margin-bottom: -15px; /* Margen inferior entre botones */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+    
+}
+
+/* Estilos para el efecto hover del botón */
+.btn:hover {
+    background-color: #6b6b00; /* Cambiar color de fondo al pasar el mouse */
+}
+
+
+
+.custom-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.custom-links .custom-link {
+    flex-basis: 48%; /* Ajusta el ancho de cada imagen */
+    margin-bottom: 10px; /* Ajusta el espacio entre las imágenes */
+}
+
+.custom-links .custom-link img {
+    width: 100%; /* Ajusta el tamaño de las imágenes para llenar su contenedor */
+}
+
+.custom-container {
+    display: flex;
+    width: auto;
+    height: auto;
+
+}
+
+
+
+.custom-sidebar {
+    width: 33%;
+    padding: 20px;
+    height: 100%;
+    background-color: #11bfea67;
+    border-radius: 50px; /* Bordes redondeados */
+    box-shadow: 0 0 500px rgba(0, 0, 0, 0.1); /* Sombra */
+    
+}
+
+.custom-content {
+    width: 66%;
+    padding: 20px;
+    flex-grow: 1;
+    
+}
+
+.custom-sidebar img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.top-heading {
+    text-align: center; /* Para centrar el texto */
+    font-size: 200%; /* Para hacer el texto más grande, ajusta el tamaño según lo necesites */
+    margin-bottom: 20px; /* Para agregar espacio debajo del texto */
+    margin-left: 180px;
+    color: #11beea;
+}
+
+.imagen {
+    width: auto; /* Ancho de la imagen */
+    height: auto; /* Alto de la imagen */
+}
+
+
+.card-title {
+    opacity: 0; /* Oculta el texto por defecto */
+    transition: opacity 0.3s ease; /* Agrega una transición suave */
+}
+
+.bigger-custom-section2:hover .card-title {
+    opacity: 1; /* Muestra el texto cuando se pasa el mouse por encima */
+}
+
+/* Agrega un efecto de transición al brillo de la imagen */
+.bigger-custom-section2 img {
+    width: 100%;
+    height: auto;
+    transition: filter 0.5s ease; /* Transición de 0.5 segundos */
+}
+
+/* Cuando se pasa el mouse sobre el título, reduce el brillo de la imagen */
+.bigger-custom-section2 .card-title:hover ~ img {
+    filter: brightness(80%); /* Reduce el brillo al 80% */
+}
+
+.bigger-custom-section2 .card-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    padding: 10px;
+    margin: 0;
+    color: white;
+    opacity: 0; /* Inicialmente transparente */
+    transition: opacity 0.5s ease; /* Transición de opacidad */
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #f5319300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.musicplayer{
+background: #ffe0e5;
+width: 100%;
+padding: 25px 35px;
+text-align: center;
+border-radius: 5%;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+nav .circle{
+    border-radius: 50%;
+    width: 10%;
+    height: 35%;
+    line-height: auto;
+    background: #fff;
+    color: #f53192;
+    box-shadow: 0 5px 10px rgba(255, 26, 26, 0.22);
+}
+
+.song-img{
+
+    width: 40%;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    box-shadow: 0 10px 60px rgba(255, 26, 26, 0.22);
+}
+
+.musicplayer h1{
+    font-size: 50px;
+    font-weight: 400;
+    color: #333;
+    margin-top: 20px;
+}
+
+.musicplayer p{
+    font-size: 25px;
+    color: #333;
+}
+
+#progress{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 1%;
+    background: #f53192;
+    border-radius: 10%;
+    cursor: pointer;
+    margin: 40px 0;
+    margin-top: 8px;
+
+
+}
+
+#progress::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background: #f53192;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    box-shadow: 0 10px 60px rgba(255, 26, 26, 0.22);
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls div{
+    width: 15%;
+    height: 40px;
+    margin: 5%;
+    background: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #f53192;
+    box-shadow: 0 10px 20px rgba(255, 26, 26, 0.22);
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+
+.controls div:nth-child(2){
+    transform: scale(1.5);
+    background: #f53192;
+    color: #fff;
+
+}
+
+
+
+#currentTime,
+#duration {
+    color: #000000; /* Cambiar el color del texto */
+    font-size: 125%; /* Cambiar el tamaño de la fuente */
+    font-family: 'Times New Roman', Times, serif, sans-serif; /* Cambiar la fuente */
+}
+
+#timeSeparator {
+    margin: 5%; /* Agregar un margen entre el tiempo actual y la duración */
+}
+
+#currentTimeIcon,
+#durationIcon {
+    margin-right: 5%; /* Ajustar el margen entre el icono y el tiempo */
+}
+
+
+
+
+
+#volumeSlider {
+    width: 30%; /* Ancho personalizado */
+    height: 1%;
+    -webkit-appearance: none; /* Elimina el estilo predeterminado del navegador */
+    appearance: none;
+    background: #f53192; /* Color de fondo */
+    border-radius: 10%; /* Bordes redondeados */
+    outline: none; /* Elimina el contorno */
+    transition: background 0.2s;
+    margin-top: -20px;
+}
+
+#volumeSlider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Elimina el estilo predeterminado del navegador */
+    appearance: none;
+    width: 20%; /* Tamaño del pulgar */
+    height: 300%;
+    background: #540e31; /* Color del pulgar */
+    border-radius: 50%; /* Forma circular */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+
+
+
+
+
+
+
+
+/* Estilos para el botón de la lista de reproducción */
+.playlist-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.playlist-popup {
+        display: none;
+        position: absolute;
+        top: 102%; /* Ajusta esta distancia según sea necesario */
+        left: 26%;
+        z-index: 1; /* Asegura que esté por encima de otros elementos */
+        background-color: #ab9f9f;
+        width: 200px; /* Ajusta el ancho según sea necesario */
+        max-height: 120px; /* Ajusta la altura máxima según sea necesario */
+        overflow-y: auto; /* Permite desplazamiento vertical si el contenido supera la altura máxima */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        border: 1px solid #d45dbc;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #fefefe;
+    }
+
+.playlist-content {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.playlist-item {
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.playlist-item:hover {
+    background-color: #892b2b;
+}
+
+.song {
+    cursor: pointer;
+    padding: 8px 16px;
+    display: block;
+}
+
+.song:hover {
+    background-color: #c552c3;
+    color: #ffffff;
+}
+
+
